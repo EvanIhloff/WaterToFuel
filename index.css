@@ -4,29 +4,41 @@ h1 {
 body {
   background-image: url("http://wallpapercave.com/wp/5jtNsi1.jpg");
 }
-div {
-    padding: 10px;
-    border: 5px solid blue;
-    margin: 0;}
-p {
-    border: 1px solid black;
-    outline-color:red;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-p.dotted {outline-style: dotted;}
-li {
-    display: inline;
+li a {
+    display: block;
+    width: 60px;
 }
-li {
-    float: left;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+} 
+
+li a {
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
 
-a {
+li a {
     display: block;
-    padding: 8px;
-    background-color: #4286f4;
-ul {
-    width: 500px;
-    padding-left: 0px;
-    float: right;
-    height: 54px;
-    }
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
