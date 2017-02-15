@@ -83,7 +83,3 @@ body {
 .footer {
   background-color: #999;
 }
-img {
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}
