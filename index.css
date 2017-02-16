@@ -86,12 +86,17 @@ body {
 
 .wrapper2 {
   display: grid;
-  grid-template-columns: 100px 100px;
+  grid-template-columns: 100px 100px 100px;
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
 }
+
 .box2 {
-  padding-top: 50px;
-  height: 900px
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 90px;
+  height: 900px;
+  font-size: 150%;
 }
