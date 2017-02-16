@@ -68,7 +68,7 @@ body {
     }
 
 
-.box-content {
+.box {
   background-color: #444;
   color: #fff;
   border-radius: 5px;
@@ -94,11 +94,11 @@ body {
 .A{
   padding-top: 50px;
 }
-.box {
+.Q {
   background-color: #444;
   color: #fff;
   border-radius: 5px;
   padding: 50px;
-  height: 90px;
+  height: 900px;
   font-size: 150%;
 }
