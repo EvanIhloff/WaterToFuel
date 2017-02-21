@@ -59,9 +59,6 @@ body {
         display: grid;
         grid-template-columns: 120px 1200px;
         grid-template-areas:
-    "....... header header"
-        "sidebar content content"
-        "footer  footer  footer";
         background-color: #fff;
         color: #444;
     }
