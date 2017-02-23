@@ -57,7 +57,7 @@ body {
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1200px 1200px;
+        grid-template-columns: 120px 1200px;
         grid-template-areas:
         background-color: #fff;
         color: #444;
